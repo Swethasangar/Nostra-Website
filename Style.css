@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Offer Bar */
+.offer-bar {
+  background-color: #1d232c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Header */
+.wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+.wrapper__heading {
+  margin-left: 1%;
+  color: #1d232c;
+}
+/* Nav Bar */
+.wrapper__navbar li {
+  list-style-type: none;
+}
+.wrapper__navbar a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper__navbar a:hover {
+  border-bottom: 1px solid black;
+  transition-duration: 0.3s;
+}
+.wrapper__navbar ul {
+  display: flex;
+  gap: 60px;
+  margin-right: 30px;
+}
+#menu{
+ display: none;
+}
+
+/* Side Nav */
+
+/* Slider */
+.slider {
+  position: relative;
+  margin: 1%;
+}
+.slider img {
+  border-radius: 10px;
+}
+/* Slider Text and button */
+.slider-text {
+  color: white;
+  position: absolute;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 3em;
+}
+.btn {
+  padding: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+/* Slider Arrow */
+.slider-left-button {
+  position: absolute;
+  font-size: 7em;
+  top: 35%;
+  left: 9%;
+}
+.slider-right-button {
+  position: absolute;
+  font-size: 7em;
+  top: 35%;
+  right: 12%;
+}
+
+/* Brands */
+.brands {
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+.brands-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.brand-desc p {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+/* Customer-expereince */
+.customer-exp {
+  margin-left: 1%;
+  margin-top: 5%;
+  margin-right: 1%;
+}
+.customer-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+/* Card */
+.card {
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+}
+.card-desc {
+  width: 400px;
+  background-color: #f2f4f7;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+/* New Arrivals Image */
+.new_arrival {
+  margin-left: 1%;
+  margin-top: 5%;
+  position: relative;
+}
+.new__arrival__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.new__arrival__desc img {
+  margin-top: 2%;
+  border-radius: 7px;
+}
+.new__arrival__desc {
+  position: relative;
+}
+.shop__button {
+  position: absolute;
+  font-size: 1em;
+  bottom: 30%;
+  left: 25%;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Needed */
+.needed {
+  margin-left: 1%;
+  margin-top: 5%;
+}
+.needed__container {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.needed__desc img {
+  border-radius: 10px;
+}
+.needed__desc {
+  position: relative;
+  cursor: pointer;
+}
+.btn1 {
+  position: absolute;
+  left: 10px;
+  margin-top: 2px;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+}
+.likebtn {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+}
+/* Offer */
+.offer__container {
+  display: flex;
+  gap: 50px;
+  background-color: #1d232c;
+  margin: 1%;
+}
+.offer__items {
+  padding: 20px;
+  margin-left: 5%;
+}
+.offer__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 1.4em;
+}
+.butn {
+  width: fit-content;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  margin-top: 10px;
+  cursor: pointer;
+}
+/* Desc */
+.desc1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 1.4em;
+}
+.desc1 input {
+  width: 80%;
+  padding: 5px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+.subbtn {
+  margin-top: 1%;
+  border: none;
+  border-radius: 10px;
+  background-color: #1d232c;
+  color: white;
+  padding: 10px 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+/* Footer */
+.footer {
+  background-color: #1d232c;
+  color: white;
+  height: 50vh;
+  margin-top: 5%;
+  box-sizing: border-box;
+  font-size: 1.8em;
+}
+.footer__desc {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__icon {
+  display: flex;
+  gap: 50px;
+  margin-top: 1%;
+}
+.footer__desc1 {
+  margin-left: 2.5%;
+}
+
+/* Search */
+.search {
+  position: relative;
+}
+
+.search__box input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 26%;
+  margin-top: 10px;
+  outline: none;
+}
+.search i {
+  position: absolute;
+  left: 95%;
+  bottom: 20%;
+}
+/* Check box */
+.collections-wrapper {
+  display: flex;
+}
+.check__box1 {
+  font-size: 1.8em;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  gap: 40px;
+  margin-left: 1%;
+}
+/* collections */
+.collection-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 15%;
+  margin-top: 2%;
+  padding-left: 2%;
+  gap: 50px;
+  border-left: 2px solid black;
+}
+.collection-desc h1 {
+  font-size: 2em;
+}
+/* Contact Form */
+.form_container {
+  background-color: #1d232c;
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80vw;
+  height: 30vw;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form input {
+  width: 85%;
+  padding: 20px;
+  outline: none;
+  border-radius: 10px;
+}
+.contact-form textarea {
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.subbutn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #0056b3;
+  margin-top: 10px;
+}
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  body{
+    font-size:0.4em;
+  }
+  .slider {
+    font-size: 0.3em;
+    position: relative;
+  }
+  .slider-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    right: 5px;
+    left: 5px;
+  }
+  .btn {
+    margin-top: 5px;
+    padding: 5px;
+  }
+  .brands-container {
+    font-size: 0.7em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .card {
+    display: grid;
+  }
+  .new__arrival__img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .needed__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .offer__items img {
+    width: 250px;
+  }
+  .collection-desc img{
+    width:100px;
+  }
+  .collection-desc .icon{
+    display: none;
+  }
+  .wrapper__navbar{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+}
